@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "revup-ios-pangle",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/revup-tnk/REVUP-iOS-Pangle.git",
+      "state" : {
+        "revision" : "c8714cdf84a48f8d6db66ad10bf7e63085bf9913",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
