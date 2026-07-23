@@ -1,12 +1,12 @@
 {
   "pins" : [
     {
-      "identity" : "revup-ios-pangle",
+      "identity" : "adsglobalpackage",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/revup-tnk/REVUP-iOS-Pangle.git",
+      "location" : "https://github.com/bytedance/AdsGlobalPackage.git",
       "state" : {
-        "revision" : "c8714cdf84a48f8d6db66ad10bf7e63085bf9913",
-        "version" : "1.0.0"
+        "revision" : "e2d9f0850c7f9ce6c3d1256208ca0c00418dd259",
+        "version" : "8.1.1-release.1"
       }
     }
   ],
