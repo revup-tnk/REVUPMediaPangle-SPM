@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "REVUPMediaPangle",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v15)],
     products: [
         .library(
             name: "REVUPMediaPangle",
@@ -13,7 +13,7 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.1.1-release.1")
+        .package(url: "https://github.com/bytedance/AdsGlobalPackage.git", exact: "8.3.0-release.9")
     ],
     targets: [
         .target(
@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "REVUPMediaPangle",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.0/REVUPMediaPangle.zip",
-            checksum: "c66d0ab8a54f6a1e4a884c9b544d8c9e73d915084a729b1787abaa8b881beda7"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.2.0/REVUPMediaPangle.zip",
+            checksum: "d6053c4829631689e2e1fc5397bde31138fee93910b2829e31f84b97e9882f1c"
         ),
     ]
 )
